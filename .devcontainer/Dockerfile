@@ -21,6 +21,9 @@ RUN \
 # Install docker
 RUN curl -fsSL https://get.docker.com | sh -
 
+RUN curl -fsSL https://deb.nodesource.com/setup_15.x | bash - \
+    && apt-get install -y nodejs
+
 # Install shellcheck
 RUN \
     curl -fLs \

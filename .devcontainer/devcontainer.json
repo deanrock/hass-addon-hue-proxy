@@ -8,7 +8,8 @@
 	"runArgs": ["-e", "GIT_EDITOR=code --wait", "--privileged"],
 	"extensions": [
 		"timonwong.shellcheck",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"ms-python.python"
 	],
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
