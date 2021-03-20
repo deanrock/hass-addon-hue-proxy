@@ -6,7 +6,14 @@
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "boot": "auto",
-    "options": {},
-    "schema": {}
+    "options": {
+      "hue_ip": "null"
+    },
+    "schema": {
+      "hue_ip": "str"
+    },
+    "ports": {
+      "30000/tcp": 30000
+    }
   }
   
