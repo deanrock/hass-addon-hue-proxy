@@ -15,4 +15,6 @@ ENV OPTIONS_PATH /data/options.json
 
 ADD ./ /app
 
+RUN chmod +x /app/run.sh
+
 CMD [ "/app/run.sh" ]
