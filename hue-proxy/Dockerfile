@@ -11,6 +11,8 @@ ADD package.json /app
 ADD package-lock.json /app
 RUN npm install
 
+ENV OPTIONS_PATH /data/options.json
+
 ADD ./ /app
 
 CMD [ "/app/run.sh" ]
