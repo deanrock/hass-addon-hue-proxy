@@ -38,6 +38,8 @@ async function main() {
 
         const body = JSON.stringify(copy);
 
+        console.log(body);
+
         proxyReq.setHeader('content-length', body.length);
         proxyReq.write(body);
         proxyReq.end();
